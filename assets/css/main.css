@@ -2814,10 +2814,6 @@ button:disabled,
   /* background-color: #8499e7; */
 }
 
-.tiles h2 {
-  color: #cc6d6d;
-}
-
 body:not(.is-touch) .tiles article:hover > .image {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -3243,6 +3239,10 @@ body.is-menu-visible #menu .close {
 #footer {
   padding: 5em 0 6em 0;
   background-color: #feeee8;
+}
+
+#footer h2 {
+  color: #cc6d6d;
 }
 
 #footer > .inner {
