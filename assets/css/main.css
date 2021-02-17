@@ -307,7 +307,6 @@ h6 a {
 
 h2 {
   font-size: 1.1em;
-  color: #cc6d6d;
 }
 
 h3 {
@@ -2813,6 +2812,10 @@ button:disabled,
 
 .tiles article.style6 > .image::before {
   /* background-color: #8499e7; */
+}
+
+.tiles h2 {
+  color: #cc6d6d;
 }
 
 body:not(.is-touch) .tiles article:hover > .image {
