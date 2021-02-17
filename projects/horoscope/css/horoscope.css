@@ -1,0 +1,78 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  color: white;
+  background-size: 45%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #a7aff1;
+  margin: 40px 0 0 80px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 0;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 2px;
+  letter-spacing: 4px;
+}
+
+#sign {
+  margin-bottom: 0;
+  padding-top: 20px;
+  color: #2b4399;
+}
+
+#dates {
+  color: #2b4399;
+}
+
+.inputs-container {
+  padding-top: 40px;
+}
+
+input {
+  width: 12%;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+}
+
+.button {
+  width: 90px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+  background-color: #f7edf7;
+}
+
+#sign-image {
+  padding-top: 2%;
+}
+
+#sign-image img {
+  width: 40%;
+  margin-bottom: -40px;
+  margin-top: -40px;
+}
+
+#sign-image img.not-cropped {
+  margin-top: 0;
+}
+
+.output-container {
+  width: 50%;
+  margin: auto;
+  line-height: 2em;
+}
+
+#output{
+  color: #2B4399;
+}

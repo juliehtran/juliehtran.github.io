@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My Cute Calculator</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is where your description goes">
+  <meta name="keywords" content="one, two, three">
+
+  <title>Title in the tab</title>
+
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/calculator.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- inputscreen -->
+  <section class="calculator">
+    <div class="input-area row">
+      <span class="answer"></span>
+    </div>
+
+    <section class="buttons-container row">
+      <section class="number-buttons column">
+        <section class="row">
+          <button class="button" num="7">7</button>
+          <button class="button" num="8">8</button>
+          <button class="button" num="9">9</button>
+        </section>
+        <section class="row">
+          <button class="button" num="4">4</button>
+          <button class="button" num="5">5</button>
+          <button class="button" num="6">6</button>
+        </section>
+        <section class="row">
+          <button class="button" num="1">1</button>
+          <button class="button" num="2">2</button>
+          <button class="button" num="3">3</button>
+        </section>
+        <section class="row">
+          <button class="button big-button" num="0">0</button>
+          <button class="button big-button" num=".">.</button>
+        </section>
+      </section>
+
+      <section class="operators column">
+        <button class="button">÷</button>
+        <button class="button">×</button>
+        <button class="button">-</button>
+        <button class="button">+</button>
+      </section>
+
+      <section class="executors column">
+        <button class="button long-button big-button delete">DEL</button>
+        <button class="button big-button ac">AC</button>
+        <button class="button big-button equal">=</button>
+      </section>
+    </section>
+  </section>
+
+  <script type="text/javascript" src="js/calculator.js"></script>
+</body>
+
+</html>

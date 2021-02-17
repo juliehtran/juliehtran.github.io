@@ -1,0 +1,314 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 18px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #606060;
+  text-decoration: none;
+  padding-top: 2%;
+}
+
+.hamburger-holder {
+  text-align: left;
+  padding-left: 80px;
+}
+
+.hamburger {
+  height: 50px;
+  margin-top: 20px;
+  color: grey;
+  font-size: 30px;
+}
+
+.apply-button {
+  height: 20%;
+  width: 5%;
+  color: white;
+  background-color: #323a41;
+  padding: 10px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.intro-container {
+  width: 100%;
+  height: 450px;
+  background-color: #f0f3f5;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+
+.logo {
+  width: 70%;
+  padding-left: 5%;
+}
+
+.woman {
+  padding-right: 5%;
+}
+
+.half {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 5%;
+}
+
+/* buttons and inputs */
+.bar-sizing {
+  width: 70%;
+  height: 5%;
+  padding: 10px;
+}
+
+.submit-button {
+  border-radius: 5px;
+  background-color: #8e9ca2;
+  color: white;
+  padding: 2% 6%;
+}
+
+.empowerment-container {
+  width: 100%;
+  height: 350px;
+}
+
+hr {
+  border-top: 3px solid #fadadd;
+}
+
+.title-center {
+  width: 60%;
+  text-align: center;
+  margin: 3% auto;
+  line-height: 35px;
+}
+
+.centered-text-body {
+  display: flex;
+  justify-content: center;
+}
+
+.bold-style {
+  font-weight: bold;
+}
+
+.extra-info {
+  color: grey;
+  font-style: italic;
+  display: block;
+}
+
+.history {
+  width: 100%;
+  background-color: #f0f3f5;
+}
+
+.left-align-text {
+  width: 60%;
+  height: 100%;
+  padding: 30px 50px;
+  line-height: 21px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inline-pics {
+  display: inline-block;
+  width: 360px;
+  clear: both;
+}
+
+.who-we-are-container {
+  width: 100%;
+}
+
+.founder-container {
+  width: 70%;
+  border: 1px solid grey;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.inline-pic2 {
+  width: 20%;
+  height: 65%;
+}
+
+h2 {
+  color: grey;
+}
+
+.subscribe-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #b8c4d0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: 50px;
+}
+
+.submit-button2 {
+  border-radius: 5px;
+  background-color: #8e9ca2;
+  color: white;
+  padding: 0% 3%;
+  height: 80%;
+  line-height: 38px;
+  margin-top: 5px;
+}
+
+.Email {
+  border-radius: 5px;
+  background-color: white;
+  color: grey;
+  padding: 0% 3%;
+  height: 80%;
+  line-height: 38px;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 10%;
+  float: right;
+}
+
+footer {
+  width: 100%;
+  height: 230px;
+  background-color: #8e9ca3;
+}
+
+/* containers for copyright text and socials */
+.bottomleft,
+.bottomright {
+  color: white;
+  font-size: 20px;
+  width: 49%;
+  height: 30px;
+  float: left;
+}
+
+/* copyright */
+.bottomleft h6 {
+  margin-top: 7px;
+}
+
+/* socials */
+.bottomright h6 {
+  margin-top: 7px;
+  margin-right: 20px;
+  float: right;
+}
+
+/* containers for lists and white border at the top */
+.bottom2 {
+  border-top: 1px solid white;
+  width: 100%;
+  height: 200px;
+  clear: both;
+}
+
+/* columns for the unordered list nav */
+.bot {
+  width: 100px;
+  height: 200px;
+  margin-left: 18px;
+  float: left;
+}
+
+/* home, program, jwli, fellows, news, contact */
+.bot h5 {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+/* unordered list item styles */
+.bot h6 {
+  color: white;
+  flex-direction: 10px;
+  text-align: center;
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .disappear {
+    display: none;
+  }
+
+  .half {
+    width: 80%;
+    padding-top: 20px;
+
+    /* font-size: 1.3em; */
+  }
+
+  .bar-sizing {
+    width: 60%;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .intro-container {
+    height: 400px;
+  }
+
+  .title-center {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1570px) {
+  .half {
+    width: 40%;
+  }
+
+  .submit-button {
+    width: 40%;
+    padding: 2% 5%;
+    margin-left: -54px;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 1000px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .show-on-mobile {
+    display: block;
+  }
+
+  .logo-mobile {
+    flex-direction: row;
+    width: 30%;
+    height: 90%;
+  }
+
+  a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .show-on-mobile {
+    display: none;
+  }
+}

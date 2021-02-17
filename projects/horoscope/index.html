@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My Cute Horoscope</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is where your description goes">
+  <meta name="keywords" content="one, two, three">
+
+  <title>My Cute Horoscope</title>
+
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/horoscope.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="titles">
+    <h1>THE HOROSCOPES</h1>
+    <h2>AS A FRIEND</h2>
+  </section>
+
+  <div class="inputs-container">
+    <h3>Your birthday, please!</h3>
+    <input type="number" id="month" placeholder="Month" min="1" max="12">
+    <input type="number" id="day" placeholder="Day" min="1" max="31">
+    <button class="button">Let's go!</button>
+  </div>
+
+  <div class="output-container">
+    <h3 id="sign"></h3>
+    <span id="output"></span>
+    <div id="sign-image">
+      <img class="not-cropped" src="img/horoscope.png" alt="main-img">
+    </div>
+    <p id="dates"></p>
+  </div>
+  <script type="text/javascript" src="js/horoscope.js"></script>
+</body>
+
+</html>
