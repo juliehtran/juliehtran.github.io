@@ -255,7 +255,7 @@ i {
 }
 
 p {
-  margin: 0 0 2em 0;
+  margin: 0 0 5em 0;
 }
 
 h1 {
@@ -1876,9 +1876,35 @@ article.special {
   text-align: center;
 }
 
+.evenly-allocated {
+  flex: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about {
+    display: block;
+    text-align: center;
+  }
+}
+
 header p {
-  margin-top: -1em;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+  margin-right: 50px;
+  margin-bottom: 0;
+}
+
+.about-container h1 {
+  margin-bottom: 0.5em;
+}
+
+.about {
+  vertical-align: top;
 }
 
 @media screen and (max-width: 736px) {
@@ -2905,6 +2931,16 @@ body.is-touch .tiles article .content {
 
 /* Header */
 
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5em;
+}
+
+/* .space-between {
+  flex-direction: column;
+} */
+
 #header {
   background-size: contain;
   background-repeat: no-repeat;
@@ -3234,6 +3270,10 @@ body.is-menu-visible #menu .close {
   padding: 4em 0 6em 0;
 }
 
+.portfolio {
+  text-align: center;
+}
+
 /* Footer */
 
 #footer {
@@ -3388,8 +3428,20 @@ body.is-menu-visible #menu .close {
   padding: 0 2.5em;
 }
 
-@media screen and (max-width: 736px) {
+/* @media screen and (max-width: 736px) {
   #wrapper > * > .inner {
     padding: 0 1.25em;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  #header {
+    background-repeat: no-repeat;
+    background-image: url("mobile-bg.png");
+    height: 500px;
+  }
+
+  #main {
+    padding: 0 0 6em 0;
   }
 }
