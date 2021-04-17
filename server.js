@@ -27,7 +27,7 @@ app.get(`/contact`, (request, response) => {
     // not sure if this works, might need to add it in the subject
     from: request.query.email_address,
     to: process.env.EMAIL,
-    subject: `New message from ${request.query.name} [Portfolio contact form]`,
+    subject: `New message from "${request.query.name}" (${request.query.email}) [Portfolio contact form]`,
     text: request.query.message
   };
 
