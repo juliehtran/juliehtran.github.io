@@ -7,7 +7,7 @@ const express = require('express');
 const app = express();
 
 // production HTTP port
-const port = 443;
+const port = process.env.PORT || 443;
 
 // we take info from ajax requests, not normal form actions
 app.use(express.json({ extended: true }));
