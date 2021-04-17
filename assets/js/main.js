@@ -1,3 +1,12 @@
+$(`#contact-form`).on(`submit`, (event) => {
+  event.preventDefault();
+  const formData = $(event.target).serialize();
+  fetch(`${event.target.action}?${formData}`)
+    .then((response) => response.json())
+    .then((response) => console.log(response))
+	.then(() => alert("Thanks for the message!"));
+});
+
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
