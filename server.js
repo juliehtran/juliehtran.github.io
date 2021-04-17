@@ -26,7 +26,7 @@ app.get(`/contact`, (request, response) => {
   const emailData = {
     // not sure if this works, might need to add it in the subject
     from: request.query.email_address,
-    to: process.env.email,
+    to: process.env.EMAIL,
     subject: `New message from ${request.query.name} [Portfolio contact form]`,
     text: request.query.message
   };
